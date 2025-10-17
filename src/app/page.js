@@ -55,7 +55,7 @@ export default function Home() {
             <a 
               href="/" 
               style={{borderColor: 'rgba(255, 255, 255, 0.3)'}}
-              className="text-[16px] hover:bg-white hover:bg-opacity-10 hover:scale-105 transition font-light border border-white px-3 py-2 rounded-lg"
+              className="text-[16px] hover:bg-white/10 hover:scale-105 transition font-light border border-white px-3 py-2 rounded-lg"
             >
               HISTORICO
               <Image 
@@ -68,7 +68,7 @@ export default function Home() {
             </a>
             <a 
               href="/" 
-              className="text-[16px] hover:bg-opacity-90 hover:scale-105 transition font-normal border border-white px-3.5 py-2 rounded-lg bg-white text-black"
+              className="text-[16px] hover:bg-white/70 hover:scale-105 transition font-normal border border-white px-3.5 py-2 rounded-lg bg-white text-black"
             >
               PROFILE
               <Image 
@@ -174,7 +174,7 @@ export default function Home() {
           initial={{ opacity: 0, x: -50 }}
           animate={heroLeftInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="col-span-12 lg:col-span-6 mt-0 lg:mt-47 text-center lg:text-left"
+          className="col-span-12 lg:col-span-6 mt-0 xl:mt-47 lg:mt-0 text-center lg:text-left"
         >
           <a 
             href="/" 
